@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+// import Map from './Map';
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -10,7 +12,7 @@ export default function App() {
 
       {/* <Login>(#ffc40d nice color) </Login> */}
       {/* <Register></Register> */}
-      {/* <Map></Map> */}
+      {/* <Map></Map>  */}
       {/* <Buzz></Buzz> */}
       {/* <CompanyProfile></CompanyProfile> */}
 

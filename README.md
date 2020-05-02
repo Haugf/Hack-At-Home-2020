@@ -54,3 +54,19 @@ Editing the App
     a. you can add more text components or make your own components!
     https://reactnative.dev/blog/2018/05/07/using-typescript-with-react-native
 
+
+
+Adding Google_maps_react component
+
+1. yarn add google-maps-react
+    a. now use GCP to get google maps api key
+    b. create a .env file and add your api key (don't forget to use .gitignore and include .env there)
+
+2. Create a MapView component where you will handle all the map api logic
+    this is a tsx so it may be annoying....
+
+3. Create a GCP account and enable google maps javascript api with your api key
+
+Adding and handling API Keys
+1. Create a .env file
+2. 
