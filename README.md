@@ -46,3 +46,11 @@ run
 >expo-cli start --tunnel
 
 Now you can scan the qr code on your iphone and can start working on App.tsx!
+
+
+Editing the App
+
+1. start by editing the app,tsx file
+    a. you can add more text components or make your own components!
+    https://reactnative.dev/blog/2018/05/07/using-typescript-with-react-native
+
