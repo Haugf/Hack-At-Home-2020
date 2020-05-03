@@ -2,7 +2,6 @@
   "expo": {
     "name": "Pollen",
     "slug": "pollen",
-    "sdkVersion": "37.0.0",
     "platforms": [
       "ios",
       "android",
