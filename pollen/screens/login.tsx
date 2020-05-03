@@ -1,7 +1,10 @@
+// import statements
+
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 // import Map from './Map';
 
@@ -16,6 +19,9 @@ const styles = StyleSheet.create({
   });
 
 export default function Login() {
+
+    const Navigator = useNavigation();
+
   return (
     <View style={styles.container}>
       <Text>Pollen 2</Text>
@@ -26,6 +32,12 @@ export default function Login() {
       {/* <Map></Map>  */}
       {/* <Buzz></Buzz> */}
       {/* <CompanyProfile></CompanyProfile> */}
+
+      <Button
+        title="MAP BUTTON"
+        onPress={() => Navigator.navigate('Map')}
+      />
+
 
 
     </View>
