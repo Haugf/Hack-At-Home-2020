@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-//import MapView from './MapView';
+import MapView from '../MapView';
 
 
 // to do
@@ -15,7 +15,7 @@ export default function Map() {
   return (
     <View style={styles.container}>
       <Text>Map</Text>
-      {/* <MapView></MapView> */}
+      <MapView></MapView>
 
 
     </View>

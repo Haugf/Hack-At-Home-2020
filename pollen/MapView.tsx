@@ -1,8 +1,8 @@
 import React, { Component, constructor } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import GoogleMap, { Coords } from 'google-map-react';
-const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
+const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 const LOS_ANGELES_CENTER= [34.0522, -118.2437];
 
 
